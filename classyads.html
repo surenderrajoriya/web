@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            margin: 0px;
+            padding: 0px;
+            font-family:  Arial, Helvetica, sans-serif;
+        }
+        .main{
+            
+            background-image: url("back.jpg");
+            height:800px;
+            width: 100%;
+            background-size: 100% 800px;
+            background-repeat: no-repeat;
+          
+            
+        }
+       .classyads{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80px;
+        background-color: white;
+     
+        position: relative;
+        border-radius: 5px;
+       }
+       .classy{
+        margin-left:30px;
+        line-height:80px;
+        color: black;
+        font-size: 22px;
+        
+       }
+       .ads{
+        line-height:80px;
+        color: aqua;
+        font-size: 22px;
+    
+       }
+       ul{
+        margin-left:360px;
+        margin-top:-45px;
+        font-family: sans-serif;
+        list-style-type:none;
+          
+       }
+      ul li{
+        float:left;
+        width:80px;
+       }
+       ul li a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+       }
+
+      ul li a:hover{
+        color: aqua;
+        
+       }
+       .postanad{
+        background-color: rgb(95, 231, 186);
+        width:150px;
+        margin-left:1000px;
+        margin-top:-80px;
+        text-align: center;
+        height:50px;
+        line-height: 50px;
+        color: white;
+        border-radius:5px;
+        cursor: pointer;
+       }
+       .largest{
+        font-size: 3.2vw;
+        text-align:center;
+        margin-top: 150px;  
+        color: aliceblue;
+       }
+       
+       .youcan{
+        font-size: 1.5vw;
+       }
+       .textbar{
+        background-color: rgba(255, 255, 255, 0.39);
+        width:82%;
+        margin-left:auto;
+        margin-right: auto;
+        height: 90px;
+        border-radius: 5px;
+       }
+       .search{
+        background-color: rgb(95, 231, 186);
+        width:180px;
+        height: 50px;
+        line-height:50px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 960px;
+        font-size:1.2vw;
+        margin-top: -50px;
+        display: block;
+        cursor: pointer;
+        border: none;
+        color: black;
+        text-decoration: none;
+       }    
+       .search:hover{
+        background-color: rgb(146, 190, 190);
+        display: block; 
+
+    }
+       select{
+        border-radius: 5px;
+        height: 50px;
+        width: 280px;
+        border: none;
+        border-color: white;
+        margin-left: 30px;
+        font-size: 18px;
+        color: rgb(128, 128, 128);
+       }
+       input{
+        border-color: white;
+        border-radius: 5px;
+        height: 50px;
+        width: 280px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+       }
+       .tansmitionbox{
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 200px;
+        background-color: white;
+       margin-top: -40px;
+       }
+       
+       
+      .one{
+        float: left;
+        display: flex;
+        
+        width: 16.6666667%;
+        height:180px;
+        border-radius: 10px;
+       }
+       .one:hover{
+        background-color: aqua;
+        margin-top: -10px;
+        transition: 0.3s ease-in;
+        box-shadow: 0px 6px 8px rgb(189, 235, 235);
+       }
+    </style>
+</head>
+<body>
+    <div class="main"><br>
+        <div class="classyads">
+         <span class="classy"><b>CLASSY</b></span><span class="ads"><b>ADS</b></span>  
+            <ul>
+                <li> <a href="file:///D:/www/classy/classyads.html">Home</a> </li>
+                <li><a href="file:///D:/www/classy/classyads.html">Ads</a></li>
+                <li><a href="file:///D:/www/classy/classyads.html">About</a></li>
+                <li><a href="file:///D:/www/classy/classyads.html">Blog</a></li>
+                <li><a href="file:///D:/www/classy/classyads.html">Contact</a></li>
+                <li><a href="file:///D:/www/classy/classyads.html">Log in</a></li>
+                <li><a href="file:///D:/www/classy/classyads.html">Register</a></li>
+            </ul>
+          <div class="postanad">    
+            +Post an ad 
+          </div>
+        </div>
+        <div class="largest">
+Largest Classified In the world<br>
+<p class="youcan">You can buy,sell anything you want.</p>
+        </div>
+       <div class="textbar">
+      <input type="text" placeholder="    What are you looking for?">
+      <input type="text" placeholder="    location">
+      <select name="item" id="item" >
+       <option value="">All Categories</option>
+       <option value="">Books & Magazines</option>
+       <option value="">Furniture</option>
+       <option value="">Electronics</option>
+       <option value="">Car & Vehicles</option>
+       <option value="">Others</option>
+      </select>
+      <button class="search">
+       Search
+      </button>
+       </div>
+    </div>
+    <div class="tansmitionbox">
+
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+     
+    </div>
+</body>
+</html>
